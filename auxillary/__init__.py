@@ -1,0 +1,1 @@
+from .versioninfo import VersionInfo
