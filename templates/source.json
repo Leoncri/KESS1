@@ -1,0 +1,142 @@
+{
+    "graphical": {
+        "rectangle_0": {
+            "type": "rectangle",
+            "startPositionX": -30,
+            "startPositionY": -30,
+            "endPositionX": 30,
+            "endPositionY": 30,
+            "normalOutlineColor": "black",
+            "selectedOutlineColor": "red",
+            "normalFillColor": "white",
+            "selectedFillColor": "white",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "line_1": {
+            "type": "line",
+            "startPositionX": -30,
+            "startPositionY": -20,
+            "endPositionX": 30,
+            "endPositionY": 0,
+            "normalColor": "grey",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "line_2": {
+            "type": "line",
+            "startPositionX": -30,
+            "startPositionY": 0,
+            "endPositionX": 30,
+            "endPositionY": 20,
+            "normalColor": "grey",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "line_3": {
+            "type": "line",
+            "startPositionX": -20,
+            "startPositionY": 30,
+            "endPositionX": 0,
+            "endPositionY": -30,
+            "normalColor": "grey",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "line_4": {
+            "type": "line",
+            "startPositionX": 0,
+            "startPositionY": 30,
+            "endPositionX": 20,
+            "endPositionY": -30,
+            "normalColor": "grey",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "line_5": {
+            "type": "line",
+            "startPositionX": -30,
+            "startPositionY": 10,
+            "endPositionX": -20,
+            "endPositionY": -30,
+            "normalColor": "grey",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "line_6": {
+            "type": "line",
+            "startPositionX": 20,
+            "startPositionY": 30,
+            "endPositionX": 30,
+            "endPositionY": -10,
+            "normalColor": "grey",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "line_7": {
+            "type": "line",
+            "startPositionX": -10,
+            "startPositionY": -30,
+            "endPositionX": 30,
+            "endPositionY": -20,
+            "normalColor": "grey",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "line_8": {
+            "type": "line",
+            "startPositionX": -30,
+            "startPositionY": 20,
+            "endPositionX": 10,
+            "endPositionY": 30,
+            "normalColor": "grey",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "line_9": {
+            "type": "line",
+            "startPositionX": 30,
+            "startPositionY": 0,
+            "endPositionX": 50,
+            "endPositionY": 0,
+            "normalColor": "black",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "grid_type": {
+            "type": "text",
+            "textPositionX": 0,
+            "textPositionY": 0,
+            "text": "=",
+            "font": "Helvetica",
+            "size": 48,
+            "rotation": 0
+        },
+        "Name": {
+            "type": "text",
+            "textPositionX": 0,
+            "textPositionY": 40,
+            "text": "Source",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        }
+    },
+    "connections": {
+        "0": {
+            "positionX": 50,
+            "positionY": 0,
+            "pointID": -1,
+            "electricalType": "MVDC"
+        }
+    }
+}

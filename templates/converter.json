@@ -1,0 +1,100 @@
+{
+    "graphical": {
+        "Base": {
+            "type": "rectangle",
+            "startPositionX": -30,
+            "startPositionY": -30,
+            "endPositionX": 30,
+            "endPositionY": 30,
+            "normalOutlineColor": "black",
+            "selectedOutlineColor": "red",
+            "normalFillColor": "white",
+            "selectedFillColor": "white",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "Line_1": {
+            "type": "line",
+            "startPositionX": -30,
+            "startPositionY": 30,
+            "endPositionX": 30,
+            "endPositionY": -30,
+            "normalColor": "black",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "Port_1_Text": {
+            "type": "text",
+            "textPositionX": -12,
+            "textPositionY": -18,
+            "text": "DC",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "Port_2_Text": {
+            "type": "text",
+            "textPositionX": 12,
+            "textPositionY": 18,
+            "text": "DC",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "Name": {
+            "type": "text",
+            "textPositionX": 0,
+            "textPositionY": 40,
+            "text": "<Name>",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "Power": {
+            "type" : "text",
+            "textPositionX": 0,
+            "textPositionY": 55,
+            "text": "<Power>",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "Line_2": {
+            "type": "line",
+            "startPositionX": -50,
+            "startPositionY": 0,
+            "endPositionX": -30,
+            "endPositionY": 0,
+            "normalColor": "black",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "Line_3": {
+            "type": "line",
+            "startPositionX": 30,
+            "startPositionY": 0,
+            "endPositionX": 50,
+            "endPositionY": 0,
+            "normalColor": "black",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        }
+    },
+    "connections": {
+        "0": {
+            "positionX": -50,
+            "positionY": 0,
+            "pointID": -1,
+            "electricalType": "MVDC"
+        },
+        "1": {
+            "positionX": 50,
+            "positionY": 0,
+            "pointID": -1,
+            "electricalType": "MVDC"
+        }
+    }
+}

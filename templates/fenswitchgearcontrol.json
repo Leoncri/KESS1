@@ -1,0 +1,358 @@
+{
+    "graphical": {
+        "Switch_1": {
+            "type": "controlSwitch",
+            "positionX": -180,
+            "positionY": -40,
+            "rotation": 90,
+            "lineOnColor": "orange",
+            "lineOffColor": "black",
+            "backgroundColor": "none"
+        },
+        "Switch_2": {
+            "type": "controlSwitch",
+            "positionX": -60,
+            "positionY": -40,
+            "rotation": 90,
+            "lineOnColor": "orange",
+            "lineOffColor": "black",
+            "backgroundColor": "none"
+        },
+        "Switch_3": {
+            "type": "controlSwitch",
+            "positionX": -60,
+            "positionY": 130,
+            "rotation": 90,
+            "lineOnColor": "orange",
+            "lineOffColor": "black",
+            "backgroundColor": "none"
+        },
+        "Switch_4": {
+            "type": "controlSwitch",
+            "positionX": 60,
+            "positionY": -40,
+            "rotation": 90,
+            "lineOnColor": "orange",
+            "lineOffColor": "black",
+            "backgroundColor": "none"
+        },
+        "Switch_5": {
+            "type": "controlSwitch",
+            "positionX": 190,
+            "positionY": 130,
+            "rotation": 90,
+            "lineOnColor": "black",
+            "lineOffColor": "black",
+            "backgroundColor": "none"
+        },
+        "line_5": {
+            "type": "line",
+            "startPositionX": -200,
+            "startPositionY": 50,
+            "endPositionX": 80,
+            "endPositionY": 50,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 8,
+            "selectedWidth": 8
+        },
+        "line_6": {
+            "type": "line",
+            "startPositionX": -60,
+            "startPositionY": 0,
+            "endPositionX": -60,
+            "endPositionY": 90,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_7": {
+            "type": "line",
+            "startPositionX": -180,
+            "startPositionY": 0,
+            "endPositionX": -180,
+            "endPositionY": 50,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_8": {
+            "type": "line",
+            "startPositionX": 60,
+            "startPositionY": 0,
+            "endPositionX": 60,
+            "endPositionY": 50,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_9": {
+            "type": "line",
+            "startPositionX": 60,
+            "startPositionY": -120,
+            "endPositionX": 60,
+            "endPositionY": -80,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_10": {
+            "type": "line",
+            "startPositionX": -60,
+            "startPositionY": -110,
+            "endPositionX": -60,
+            "endPositionY": -80,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_11": {
+            "type": "line",
+            "startPositionX": -180,
+            "startPositionY": -110,
+            "endPositionX": -180,
+            "endPositionY": -80,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_12": {
+            "type": "line",
+            "startPositionX": -220,
+            "startPositionY": -120,
+            "endPositionX": 100,
+            "endPositionY": -120,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 8,
+            "selectedWidth": 8
+        },
+        "line_13": {
+            "type": "line",
+            "startPositionX": -60,
+            "startPositionY": -180,
+            "endPositionX": -60,
+            "endPositionY": -130,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_14": {
+            "type": "line",
+            "startPositionX": -180,
+            "startPositionY": -170,
+            "endPositionX": -180,
+            "endPositionY": -130,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_15": {
+            "type": "line",
+            "startPositionX": -220,
+            "startPositionY": -180,
+            "endPositionX": 100,
+            "endPositionY": -180,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 8,
+            "selectedWidth": 8
+        },
+        "line_16": {
+            "type": "line",
+            "startPositionX": -180,
+            "startPositionY": -240,
+            "endPositionX": -180,
+            "endPositionY": -190,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_17": {
+            "type": "line",
+            "startPositionX": -220,
+            "startPositionY": -240,
+            "endPositionX": 100,
+            "endPositionY": -240,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 8,
+            "selectedWidth": 8
+        },
+        "line_18": {
+            "type": "line",
+            "startPositionX": -60,
+            "startPositionY": 170,
+            "endPositionX": -60,
+            "endPositionY": 210,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_19": {
+            "type": "line",
+            "startPositionX": -60,
+            "startPositionY": 210,
+            "endPositionX": -60,
+            "endPositionY": 250,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 10,
+            "selectedWidth": 10
+        },
+        "line_20": {
+            "type": "line",
+            "startPositionX": 190,
+            "startPositionY": 50,
+            "endPositionX": 190,
+            "endPositionY": 90,
+            "normalColor": "black",
+            "selectedColor": "orange",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_21": {
+            "type": "line",
+            "startPositionX": 190,
+            "startPositionY": 170,
+            "endPositionX": 190,
+            "endPositionY": 220,
+            "normalColor": "black",
+            "selectedColor": "black",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_22": {
+            "type": "line",
+            "startPositionX": 160,
+            "startPositionY": 50,
+            "endPositionX": 220,
+            "endPositionY": 50,
+            "normalColor": "black",
+            "selectedColor": "black",
+            "normalWidth": 8,
+            "selectedWidth": 8
+        },
+        "line_23": {
+            "type": "line",
+            "startPositionX": 190,
+            "startPositionY": 210,
+            "endPositionX": 190,
+            "endPositionY": 250,
+            "normalColor": "black",
+            "selectedColor": "black",
+            "normalWidth": 10,
+            "selectedWidth": 10
+        },
+        "text_24": {
+            "type": "text",
+            "textPositionX": 190,
+            "textPositionY": 35,
+            "text": "Neutral",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "text_25": {
+            "type": "text",
+            "textPositionX": 140,
+            "textPositionY": -240,
+            "text": "Line 1",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "text_26": {
+            "type": "text",
+            "textPositionX": 140,
+            "textPositionY": -180,
+            "text": "Line 2",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "text_27": {
+            "type": "text",
+            "textPositionX": 145,
+            "textPositionY": -120,
+            "text": "Internal",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "text_28": {
+            "type": "text",
+            "textPositionX": -60,
+            "textPositionY": 260,
+            "text": "Converter",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "Voltage_P": {
+            "type": "text",
+            "textPositionX": 0,
+            "textPositionY": 35,
+            "text": "0 V",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "Voltage_M": {
+            "type": "text",
+            "textPositionX": 0,
+            "textPositionY": 65,
+            "text": "0 V",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "Switch_1_Current": {
+            "type": "text",
+            "textPositionX": -150,
+            "textPositionY": -40,
+            "text": "0 A",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "Switch_2_Current": {
+            "type": "text",
+            "textPositionX": -30,
+            "textPositionY": -40,
+            "text": "0 A",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "Switch_4_Current": {
+            "type": "text",
+            "textPositionX": 90,
+            "textPositionY": -40,
+            "text": "0 A",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        },
+        "Switch_3_Current": {
+            "type": "text",
+            "textPositionX": -30,
+            "textPositionY": 130,
+            "text": "0 A",
+            "font": "Helvetica",
+            "size": 12,
+            "rotation": 0
+        }
+    },
+    "connections": {}
+}

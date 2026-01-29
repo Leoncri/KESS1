@@ -1,0 +1,105 @@
+{
+    "graphical": {
+        "rectangle_0": {
+            "type": "rectangle",
+            "startPositionX": -50,
+            "startPositionY": -50,
+            "endPositionX": 50,
+            "endPositionY": 50,
+            "normalOutlineColor": "black",
+            "selectedOutlineColor": "red",
+            "normalFillColor": "white",
+            "selectedFillColor": "grey",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "line_1": {
+            "type": "line",
+            "startPositionX": -140,
+            "startPositionY": 0,
+            "endPositionX": -50,
+            "endPositionY": 0,
+            "normalColor": "black",
+            "selectedColor": "red",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_2": {
+            "type": "line",
+            "startPositionX": 50,
+            "startPositionY": 0,
+            "endPositionX": 140,
+            "endPositionY": 0,
+            "normalColor": "black",
+            "selectedColor": "red",
+            "normalWidth": 4,
+            "selectedWidth": 4
+        },
+        "line_3": {
+            "type": "line",
+            "startPositionX": -50,
+            "startPositionY": 50,
+            "endPositionX": 50,
+            "endPositionY": -50,
+            "normalColor": "black",
+            "selectedColor": "red",
+            "normalWidth": 2,
+            "selectedWidth": 4
+        },
+        "Side1Type": {
+            "type": "text",
+            "textPositionX": -20,
+            "textPositionY": -30,
+            "text": "DC",
+            "font": "Helvetica",
+            "size": 16,
+            "rotation": 0
+        },
+        "Side2Type": {
+            "type": "text",
+            "textPositionX": 20,
+            "textPositionY": 30,
+            "text": "DC",
+            "font": "Helvetica",
+            "size": 16,
+            "rotation": 0
+        },
+        "Side1Voltage": {
+            "type": "text",
+            "textPositionX": -120,
+            "textPositionY": -20,
+            "text": "0 V",
+            "font": "Helvetica",
+            "size": 16,
+            "rotation": 0
+        },
+        "Side1Current": {
+            "type": "text",
+            "textPositionX": -120,
+            "textPositionY": 20,
+            "text": "0 A",
+            "font": "Helvetica",
+            "size": 16,
+            "rotation": 0
+        },
+        "Side2Voltage": {
+            "type": "text",
+            "textPositionX": 120,
+            "textPositionY": -20,
+            "text": "0 V",
+            "font": "Helvetica",
+            "size": 16,
+            "rotation": 0
+        },
+        "Side2Current": {
+            "type": "text",
+            "textPositionX": 120,
+            "textPositionY": 20,
+            "text": "0 A",
+            "font": "Helvetica",
+            "size": 16,
+            "rotation": 0
+        }
+    },
+    "connections": {}
+}

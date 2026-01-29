@@ -1,0 +1,49 @@
+{
+    "genericData": {
+        "fileType": "editor",
+        "version": 1
+    },
+    "electricalData": {
+        "point_0": {
+            "positionX": 230,
+            "positionY": 190,
+            "electricalType": "MVDC",
+            "id": 0,
+            "nodeId": 1,
+            "type": "MVDC"
+        },
+        "point_1": {
+            "positionX": 330,
+            "positionY": 190,
+            "electricalType": "LVDC",
+            "id": 1,
+            "nodeId": 2,
+            "type": "LVDC"
+        },
+        "element_0": {
+            "type": "converter",
+            "positionX": 280,
+            "positionY": 190,
+            "rotation": 0,
+            "IP": "192.168.1.169",
+            "port": 502,
+            "name": "KESS",
+            "deviceID": 0,
+            "deviceConfig": 0,
+            "connections": {
+                "0": {
+                    "positionX": 230,
+                    "positionY": 190,
+                    "pointID": 0,
+                    "electricalType": "MVDC"
+                },
+                "1": {
+                    "positionX": 330,
+                    "positionY": 190,
+                    "pointID": 1,
+                    "electricalType": "LVDC"
+                }
+            }
+        }
+    }
+}
