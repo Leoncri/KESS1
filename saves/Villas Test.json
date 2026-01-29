@@ -1,0 +1,170 @@
+{
+    "genericData": {
+        "fileType": "editor",
+        "version": 1
+    },
+    "electricalData": {
+        "point_0": {
+            "positionX": 220,
+            "positionY": 150,
+            "electricalType": "LVAC",
+            "id": 0,
+            "nodeId": 1,
+            "type": "LVAC"
+        },
+        "point_1": {
+            "positionX": 220,
+            "positionY": 290,
+            "electricalType": "LVAC",
+            "id": 1,
+            "nodeId": 2,
+            "type": "LVAC"
+        },
+        "point_2": {
+            "positionX": 360,
+            "positionY": 200,
+            "electricalType": "LVDC",
+            "id": 2,
+            "nodeId": 3,
+            "type": "LVDC"
+        },
+        "point_3": {
+            "positionX": 320,
+            "positionY": 150,
+            "electricalType": "LVDC",
+            "id": 3,
+            "nodeId": 3,
+            "type": "LVDC"
+        },
+        "point_4": {
+            "positionX": 360,
+            "positionY": 150,
+            "electricalType": "LVDC",
+            "id": 4,
+            "nodeId": 3,
+            "type": "LVDC"
+        },
+        "point_5": {
+            "positionX": 320,
+            "positionY": 290,
+            "electricalType": "LVDC",
+            "id": 5,
+            "nodeId": 3,
+            "type": "LVDC"
+        },
+        "point_6": {
+            "positionX": 360,
+            "positionY": 290,
+            "electricalType": "LVDC",
+            "id": 6,
+            "nodeId": 3,
+            "type": "LVDC"
+        },
+        "point_7": {
+            "positionX": 360,
+            "positionY": 220,
+            "electricalType": "LVDC",
+            "id": 7,
+            "nodeId": 3,
+            "type": "LVDC"
+        },
+        "point_8": {
+            "positionX": 400,
+            "positionY": 220,
+            "electricalType": "LVDC",
+            "id": 8,
+            "nodeId": 3,
+            "type": "LVDC"
+        },
+        "segment_0": {
+            "point1Id": 3,
+            "point2Id": 4
+        },
+        "segment_1": {
+            "point1Id": 4,
+            "point2Id": 2
+        },
+        "segment_2": {
+            "point1Id": 5,
+            "point2Id": 6
+        },
+        "segment_3": {
+            "point1Id": 6,
+            "point2Id": 7
+        },
+        "segment_4": {
+            "point1Id": 8,
+            "point2Id": 7
+        },
+        "segment_5": {
+            "point1Id": 2,
+            "point2Id": 7
+        },
+        "element_0": {
+            "type": "converter",
+            "positionX": 270,
+            "positionY": 150,
+            "rotation": 0,
+            "IP": "5.140.119.62",
+            "port": 502,
+            "name": "LV AC 1",
+            "deviceID": 0,
+            "deviceConfig": 1,
+            "connections": {
+                "0": {
+                    "positionX": 220,
+                    "positionY": 150,
+                    "pointID": 0,
+                    "electricalType": "LVAC"
+                },
+                "1": {
+                    "positionX": 320,
+                    "positionY": 150,
+                    "pointID": 3,
+                    "electricalType": "LVDC"
+                }
+            }
+        },
+        "element_1": {
+            "type": "converter",
+            "positionX": 270,
+            "positionY": 290,
+            "rotation": 0,
+            "IP": "5.140.119.76",
+            "port": 502,
+            "name": "LV AC 2",
+            "deviceID": 1,
+            "deviceConfig": 1,
+            "connections": {
+                "0": {
+                    "positionX": 220,
+                    "positionY": 290,
+                    "pointID": 1,
+                    "electricalType": "LVAC"
+                },
+                "1": {
+                    "positionX": 320,
+                    "positionY": 290,
+                    "pointID": 5,
+                    "electricalType": "LVDC"
+                }
+            }
+        },
+        "element_2": {
+            "type": "source",
+            "positionX": 450,
+            "positionY": 220,
+            "rotation": 180,
+            "name": "15 kW Quelle",
+            "deviceID": 2,
+            "connections": {
+                "0": {
+                    "positionX": 400,
+                    "positionY": 220,
+                    "pointID": 8,
+                    "electricalType": "LVDC"
+                }
+            }
+        }
+    }
+}

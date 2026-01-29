@@ -1,0 +1,76 @@
+{
+    "genericData": {
+        "fileType": "editor",
+        "version": 1
+    },
+    "electricalData": {
+        "point_0": {
+            "positionX": 240,
+            "positionY": 280,
+            "electricalType": "MVDC",
+            "id": 0,
+            "nodeId": 1,
+            "type": "MVDC"
+        },
+        "point_1": {
+            "positionX": 360,
+            "positionY": 280,
+            "electricalType": "MVDC",
+            "id": 1,
+            "nodeId": 2,
+            "type": "MVDC"
+        },
+        "point_2": {
+            "positionX": 240,
+            "positionY": 320,
+            "electricalType": "MVDC",
+            "id": 2,
+            "nodeId": 3,
+            "type": "MVDC"
+        },
+        "point_3": {
+            "positionX": 360,
+            "positionY": 320,
+            "electricalType": "MVDC",
+            "id": 3,
+            "nodeId": 4,
+            "type": "MVDC"
+        },
+        "element_0": {
+            "type": "fenSwitchgear",
+            "positionX": 300,
+            "positionY": 300,
+            "rotation": 0,
+            "IP": "192.168.1.169",
+            "port": 502,
+            "name": "Schaltanlage 1",
+            "deviceID": 0,
+            "connections": {
+                "0": {
+                    "positionX": 240,
+                    "positionY": 280,
+                    "pointID": 0,
+                    "electricalType": "MVDC"
+                },
+                "1": {
+                    "positionX": 360,
+                    "positionY": 280,
+                    "pointID": 1,
+                    "electricalType": "MVDC"
+                },
+                "2": {
+                    "positionX": 240,
+                    "positionY": 320,
+                    "pointID": 2,
+                    "electricalType": "MVDC"
+                },
+                "3": {
+                    "positionX": 360,
+                    "positionY": 320,
+                    "pointID": 3,
+                    "electricalType": "MVDC"
+                }
+            }
+        }
+    }
+}

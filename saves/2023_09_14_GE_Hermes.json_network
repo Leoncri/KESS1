@@ -1,0 +1,49 @@
+{
+    "genericData": {
+        "fileType": "editor",
+        "version": 1
+    },
+    "electricalData": {
+        "point_0": {
+            "positionX": 580,
+            "positionY": 380,
+            "electricalType": "MVDC",
+            "id": 0,
+            "nodeId": 1,
+            "type": "MVDC"
+        },
+        "point_1": {
+            "positionX": 480,
+            "positionY": 380,
+            "electricalType": "LVDC",
+            "id": 1,
+            "nodeId": 2,
+            "type": "LVDC"
+        },
+        "element_0": {
+            "type": "converter",
+            "positionX": 530,
+            "positionY": 380,
+            "rotation": 0,
+            "IP": "5.137.190.240",
+            "port": 502,
+            "name": "Hermes",
+            "deviceID": 0,
+            "deviceConfig": 1,
+            "connections": {
+                "0": {
+                    "positionX": 480,
+                    "positionY": 380,
+                    "pointID": 1,
+                    "electricalType": "LVDC"
+                },
+                "1": {
+                    "positionX": 580,
+                    "positionY": 380,
+                    "pointID": 0,
+                    "electricalType": "MVDC"
+                }
+            }
+        }
+    }
+}

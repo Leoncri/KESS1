@@ -1,0 +1,52 @@
+{
+    "genericData": {
+        "fileType": "editor",
+        "version": 1
+    },
+    "electricalData": {
+        "point_0": {
+            "positionX": 100,
+            "positionY": 100,
+            "electricalType": "none",
+            "id": 0,
+            "nodeId": -1,
+            "type": "none"
+        },
+        "point_1": {
+            "positionX": 300,
+            "positionY": 100,
+            "electricalType": "none",
+            "id": 1,
+            "nodeId": -1,
+            "type": "none"
+        },
+        "point_2": {
+            "positionX": 350,
+            "positionY": 300,
+            "electricalType": "MVDC",
+            "id": 2,
+            "nodeId": -1,
+            "type": "MVDC"
+        },
+        "segment_0": {
+            "point1Id": 0,
+            "point2Id": 1
+        },
+        "element_0": {
+            "type": "source",
+            "positionX": 300,
+            "positionY": 300,
+            "rotation": 0,
+            "name": "5 kV DC",
+            "deviceID": 0,
+            "connections": {
+                "0": {
+                    "positionX": 350,
+                    "positionY": 300,
+                    "pointID": 2,
+                    "electricalType": "MVDC"
+                }
+            }
+        }
+    }
+}

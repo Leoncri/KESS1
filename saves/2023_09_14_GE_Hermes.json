@@ -1,0 +1,314 @@
+{
+    "genericData": {
+        "fileType": "editor",
+        "version": 1
+    },
+    "electricalData": {
+        "point_0": {
+            "positionX": 380,
+            "positionY": 500,
+            "electricalType": "MVDC",
+            "id": 0,
+            "nodeId": 1,
+            "type": "MVDC"
+        },
+        "point_1": {
+            "positionX": 280,
+            "positionY": 500,
+            "electricalType": "LVDC",
+            "id": 1,
+            "nodeId": 2,
+            "type": "LVDC"
+        },
+        "point_2": {
+            "positionX": 380,
+            "positionY": 280,
+            "electricalType": "MVDC",
+            "id": 2,
+            "nodeId": 1,
+            "type": "MVDC"
+        },
+        "point_3": {
+            "positionX": 460,
+            "positionY": 500,
+            "electricalType": "MVDC",
+            "id": 3,
+            "nodeId": 1,
+            "type": "MVDC"
+        },
+        "point_4": {
+            "positionX": 60,
+            "positionY": 280,
+            "electricalType": "MVDC",
+            "id": 4,
+            "nodeId": 3,
+            "type": "MVDC"
+        },
+        "point_5": {
+            "positionX": 280,
+            "positionY": 280,
+            "electricalType": "MVDC",
+            "id": 5,
+            "nodeId": 4,
+            "type": "MVDC"
+        },
+        "point_6": {
+            "positionX": 60,
+            "positionY": 320,
+            "electricalType": "MVDC",
+            "id": 6,
+            "nodeId": 5,
+            "type": "MVDC"
+        },
+        "point_7": {
+            "positionX": 180,
+            "positionY": 280,
+            "electricalType": "MVDC",
+            "id": 7,
+            "nodeId": 4,
+            "type": "MVDC"
+        },
+        "point_8": {
+            "positionX": 60,
+            "positionY": 110,
+            "electricalType": "MVDC",
+            "id": 8,
+            "nodeId": 6,
+            "type": "MVDC"
+        },
+        "point_9": {
+            "positionX": 60,
+            "positionY": 150,
+            "electricalType": "MVDC",
+            "id": 9,
+            "nodeId": 7,
+            "type": "MVDC"
+        },
+        "point_10": {
+            "positionX": 180,
+            "positionY": 320,
+            "electricalType": "MVDC",
+            "id": 10,
+            "nodeId": 8,
+            "type": "MVDC"
+        },
+        "point_11": {
+            "positionX": 180,
+            "positionY": 110,
+            "electricalType": "MVDC",
+            "id": 11,
+            "nodeId": 1,
+            "type": "MVDC"
+        },
+        "point_12": {
+            "positionX": 460,
+            "positionY": 280,
+            "electricalType": "MVDC",
+            "id": 12,
+            "nodeId": 1,
+            "type": "MVDC"
+        },
+        "point_13": {
+            "positionX": 240,
+            "positionY": 280,
+            "electricalType": "MVDC",
+            "id": 13,
+            "nodeId": 4,
+            "type": "MVDC"
+        },
+        "point_14": {
+            "positionX": 460,
+            "positionY": 110,
+            "electricalType": "MVDC",
+            "id": 14,
+            "nodeId": 1,
+            "type": "MVDC"
+        },
+        "point_15": {
+            "positionX": 180,
+            "positionY": 150,
+            "electricalType": "MVDC",
+            "id": 15,
+            "nodeId": 8,
+            "type": "MVDC"
+        },
+        "point_16": {
+            "positionX": 230,
+            "positionY": 150,
+            "electricalType": "MVDC",
+            "id": 16,
+            "nodeId": 8,
+            "type": "MVDC"
+        },
+        "point_17": {
+            "positionX": 230,
+            "positionY": 320,
+            "electricalType": "MVDC",
+            "id": 17,
+            "nodeId": 8,
+            "type": "MVDC"
+        },
+        "segment_0": {
+            "point1Id": 2,
+            "point2Id": 12
+        },
+        "segment_1": {
+            "point1Id": 3,
+            "point2Id": 12
+        },
+        "segment_2": {
+            "point1Id": 3,
+            "point2Id": 0
+        },
+        "segment_3": {
+            "point1Id": 5,
+            "point2Id": 13
+        },
+        "segment_4": {
+            "point1Id": 11,
+            "point2Id": 14
+        },
+        "segment_5": {
+            "point1Id": 7,
+            "point2Id": 13
+        },
+        "segment_6": {
+            "point1Id": 14,
+            "point2Id": 12
+        },
+        "segment_7": {
+            "point1Id": 15,
+            "point2Id": 16
+        },
+        "segment_8": {
+            "point1Id": 16,
+            "point2Id": 17
+        },
+        "segment_9": {
+            "point1Id": 17,
+            "point2Id": 10
+        },
+        "element_0": {
+            "type": "converter",
+            "positionX": 330,
+            "positionY": 280,
+            "rotation": 0,
+            "IP": "192.168.1.111",
+            "port": 502,
+            "name": "GE DAB",
+            "deviceID": 0,
+            "deviceConfig": 0,
+            "connections": {
+                "0": {
+                    "positionX": 280,
+                    "positionY": 280,
+                    "pointID": 5,
+                    "electricalType": "MVDC"
+                },
+                "1": {
+                    "positionX": 380,
+                    "positionY": 280,
+                    "pointID": 2,
+                    "electricalType": "MVDC"
+                }
+            }
+        },
+        "element_1": {
+            "type": "converter",
+            "positionX": 330,
+            "positionY": 500,
+            "rotation": 0,
+            "IP": "5.137.190.240",
+            "port": 502,
+            "name": "Hermes",
+            "deviceID": 1,
+            "deviceConfig": 1,
+            "connections": {
+                "0": {
+                    "positionX": 280,
+                    "positionY": 500,
+                    "pointID": 1,
+                    "electricalType": "LVDC"
+                },
+                "1": {
+                    "positionX": 380,
+                    "positionY": 500,
+                    "pointID": 0,
+                    "electricalType": "MVDC"
+                }
+            }
+        },
+        "element_2": {
+            "type": "fenSwitchgear",
+            "positionX": 120,
+            "positionY": 300,
+            "rotation": 0,
+            "IP": "192.168.1.201",
+            "port": 502,
+            "name": "Schaltanlage 1",
+            "deviceID": 2,
+            "connections": {
+                "0": {
+                    "positionX": 60,
+                    "positionY": 280,
+                    "pointID": 4,
+                    "electricalType": "MVDC"
+                },
+                "1": {
+                    "positionX": 180,
+                    "positionY": 280,
+                    "pointID": 7,
+                    "electricalType": "MVDC"
+                },
+                "2": {
+                    "positionX": 60,
+                    "positionY": 320,
+                    "pointID": 6,
+                    "electricalType": "MVDC"
+                },
+                "3": {
+                    "positionX": 180,
+                    "positionY": 320,
+                    "pointID": 10,
+                    "electricalType": "MVDC"
+                }
+            }
+        },
+        "element_3": {
+            "type": "fenSwitchgear",
+            "positionX": 120,
+            "positionY": 130,
+            "rotation": 0,
+            "IP": "192.168.1.202",
+            "port": 502,
+            "name": "Schaltanlage 2",
+            "deviceID": 3,
+            "connections": {
+                "0": {
+                    "positionX": 60,
+                    "positionY": 110,
+                    "pointID": 8,
+                    "electricalType": "MVDC"
+                },
+                "1": {
+                    "positionX": 180,
+                    "positionY": 110,
+                    "pointID": 11,
+                    "electricalType": "MVDC"
+                },
+                "2": {
+                    "positionX": 60,
+                    "positionY": 150,
+                    "pointID": 9,
+                    "electricalType": "MVDC"
+                },
+                "3": {
+                    "positionX": 180,
+                    "positionY": 150,
+                    "pointID": 15,
+                    "electricalType": "MVDC"
+                }
+            }
+        }
+    }
+}
